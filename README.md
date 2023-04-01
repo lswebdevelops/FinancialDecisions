@@ -1,8 +1,11 @@
 Financial Education Website
+
 https://lswebdevelops.github.io/FinancialDecisions/compoundCalculator.html
+
 This is a website designed to provide educational resources on financial management and help users make informed decisions about their finances. The website includes several chapters that cover different financial topics, such as setting financial goals, budgeting, investing, and more.
 
 Technologies Used
+
 HTML
 CSS
 JavaScript
@@ -10,6 +13,7 @@ Jest
 Webpack
 
 Features
+
 Compound interest calculator
 We recently added a compound interest calculator to the website, which allows users to calculate their potential earnings on an investment with compound interest. Here's a screenshot of what the calculator looks like:
 
