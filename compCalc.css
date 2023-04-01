@@ -49,7 +49,10 @@ input{
   input:focus:invalid {
     box-shadow: none;
   }
- 
+  button{
+    margin-top: 5px;
+}
+
   @media (max-width: 630px) {
     .fieldsetInput{
       width: 100%;
