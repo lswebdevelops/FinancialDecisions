@@ -1,0 +1,42 @@
+.fieldsetInput{
+    font-weight: 600;
+    width: 550px;
+    height: 350px;
+}
+.fieldsetResult{
+    font-weight: 600;
+    width: 550px;
+    height: 150px;
+}
+input{
+    width: 250px;
+  
+}
+.result{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.fieldsetInput {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fieldsetInput label {
+    flex-basis: 40%;
+    text-align: left;
+    margin-right: 1rem;
+  }
+  
+  .fieldsetInput input {
+    flex-basis: 50%;
+  }
+  button{
+    margin:28px 85px 0 0;
+    width: 110px;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 35px;
+    background-color: ;
+  }

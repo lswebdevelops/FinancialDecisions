@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Financial Decisions LS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="compCalc.css">
+	<script src="compound.js" defer></script>
+    <script src="https://kit.fontawesome.com/8e7c30ddfb.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<header>
+		<h1>Financial Decisions LS</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+
+				<li><a href="chapterOne.html"><i class="fa-solid fa-coins"></i> Financial Goals</a></li>
+				<li><a href="chapterTwo.html"><i class="fa-solid fa-piggy-bank"></i> Budgeting</a></li>
+				<li><a href="chapterThree.html"><i class="fa-solid fa-credit-card"></i> Credit Scores</a></li>
+				<li><a href="chapterFour.html"><i class="fa-solid fa-seedling"></i> Future</a></li>
+				<li><a href="chapterJoke.html"><i class="fa-solid fa-sack-dollar"></i> Rich in one year</a></li>                
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="content">
+			<!-- getting inputs -->
+			<fieldset class="fieldsetInput"><legend>Input</legend>
+				<label for="principal">Current principal 
+					<input value="1000" type="text"id="principal" >
+				</label><br>
+				<label for="monthly">Monthly addition
+					<input value="100" type="text" id="monthly">
+				</label><br>
+				<label  for="months">Months to grow 
+					<input value="360" type="text" id="months">
+				</label><br>
+				<label for="rate">Interest rate(5% = 0.05) 
+					<input value="0.05" type="text" id="rate">
+				</label><br>
+			
+				<button>Calculate</button>
+
+			</fieldset>
+			<!-- Results -->
+			<fieldset class="fieldsetResult"><legend>Results</legend>
+				<p>
+				<label for="future">Future value:<span class="result">$1,250.00</span>
+
+				</p>
+				</label>
+				
+			</fieldset>
+			
+
+		</div>
+	</main>
+	<footer>
+		<p>Copyright © 2023 Financial Decisions LS</p>
+	</footer>
+</body>
+</html>

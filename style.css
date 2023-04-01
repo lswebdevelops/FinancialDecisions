@@ -51,8 +51,11 @@ footer {
     padding: 20px;
     text-align: center;
 }
-
-@media (max-width: 767px) {
+img{
+    max-height: 550px;
+    border-radius: 3%;
+}
+@media (max-width: 802px) {
     nav {
         display: block;
         text-align: center;
