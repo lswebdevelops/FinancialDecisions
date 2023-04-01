@@ -26,21 +26,22 @@
 		</nav>
 	</header>
 	<main>
-		<div class="content">
+		
 			<!-- getting inputs -->
 			<fieldset class="fieldsetInput"><legend>Input</legend>
 				<label for="principal">Current principal 
-					<input value="1000" type="text"id="principal" >
+					<input value="1000" pattern="[0-9]+" min=0 type="number" id="principal" >
 				</label><br>
 				<label for="monthly">Monthly addition
-					<input value="100" type="text" id="monthly">
+					<input value="100"  pattern="[0-9]+" min=0  type="number" id="monthly">
 				</label><br>
-				<label  for="months">Months to grow 
-					<input value="360" type="text" id="months">
+				<label  for="months">Months to grow				
+					<input value="360" pattern="[0-9]+" min=0  type="number" id="months">
 				</label><br>
-				<label for="rate">Interest rate(5% = 0.05) 
-					<input value="0.05" type="text" id="rate">
+				<label for="rate">Interest rate(from 0 to 1)
+					<input value="0.05" type="text" min="0" max="1" pattern="^0(\.\d+)?|1(\.0+)?$" id="rate">
 				</label><br>
+				
 			
 				<button class="btn">Calculate</button>
 
@@ -54,8 +55,7 @@
 				<p>Interest: <span class="interest">$ .</span></p>		
 			</fieldset>
 			
-
-		</div>
+		
 	</main>
 	<footer>
 		<p>Copyright © 2023 <a href="https://github.com/lswebdevelops/FinancialDecisions" target="_blank">Financial Decisions LS <i class="fa-brands fa-2x fa-github"></i></a></p>
