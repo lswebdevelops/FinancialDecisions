@@ -56,3 +56,15 @@ input{
     box-shadow: none;
   }
  
+  @media (max-width: 630px) {
+    .fieldsetInput{
+      width: 100%;
+      height: 350px;
+  }
+  .fieldsetResult{
+    width: 100%;
+      height: 150px;
+  }
+
+}
+
