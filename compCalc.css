@@ -38,5 +38,11 @@ input{
     font-size: 1rem;
     font-weight: 600;
     height: 35px;
-    background-color: ;
+  }
+  a{
+    text-decoration: none;
+    color:azure;
+  }
+  a:hover{
+    text-decoration-line: underline;  
   }
