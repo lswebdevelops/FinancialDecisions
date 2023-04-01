@@ -1,3 +1,4 @@
+
 .fieldsetInput{
     font-weight: 600;
     width: 550px;
@@ -22,7 +23,7 @@ input{
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .fieldsetInput label {
     flex-basis: 40%;
     text-align: left;

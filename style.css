@@ -63,16 +63,40 @@ a{
     text-decoration-line: underline;  
   }
 
-  
-@media (max-width: 802px) {
-    nav {
+  main{
+    background-color: azure;
+}
+body{
+    background-color: #303030;
+}
+.menuBtn {
+    display: block;
+    color: azure;
+    width: 2.5rem;
+    font-size: large;
+    height: 2.5rem;
+    background-color: #303030;
+}
+
+ul {
+    display: none;
+}
+@media (min-width: 843px) {
+    .menuBtn {
+        display: none;
+    }
+    
+    ul {
         display: block;
-        text-align: center;
+    }
+    
+    nav {
+        text-align: left;
+        margin-left: 5%;
     }
 
     nav li {
-        display: block;
+        display: inline-block;
         margin: 10px;
     }
 }
-

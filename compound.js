@@ -10,12 +10,10 @@ const rate = document.querySelector("#rate")
 where: 
 P = Principal
 r = rate
-n = 12 times a year
+n = 12 times a yeare-
 t = time invested (in months) 
 PMT = addition monthly 
-
 */
-
 
 function calculate(){
     // create numbers:
@@ -48,3 +46,4 @@ const button = document.querySelector('.btn')
 button.addEventListener('click', ()=>{
     calculate()
 })
+
