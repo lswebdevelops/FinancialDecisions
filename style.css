@@ -59,11 +59,10 @@ a{
     text-decoration: none;
     color:azure;
   }
-  a:hover{
-    text-decoration-line: underline;  
-  }
-
-  main{
+a:hover{
+  text-decoration-line: underline;  
+}
+main{
     background-color: azure;
 }
 body{
@@ -81,6 +80,11 @@ body{
 ul {
     display: none;
 }
+.show-menu {
+    display: inline-block;
+    border-radius: 1px;
+  }
+
 @media (min-width: 843px) {
     .menuBtn {
         display: none;
