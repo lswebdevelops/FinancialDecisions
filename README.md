@@ -1,4 +1,5 @@
 Financial Education Website
+https://lswebdevelops.github.io/FinancialDecisions/compoundCalculator.html
 This is a website designed to provide educational resources on financial management and help users make informed decisions about their finances. The website includes several chapters that cover different financial topics, such as setting financial goals, budgeting, investing, and more.
 
 Technologies Used
