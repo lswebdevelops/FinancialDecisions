@@ -39,14 +39,7 @@ input{
     font-weight: 600;
     height: 35px;
   }
-  a{
-    text-decoration: none;
-    color:azure;
-  }
-  a:hover{
-    text-decoration-line: underline;  
-  }
-
+ 
 
   input:invalid {
     box-shadow: 0 0 5px 1px red;

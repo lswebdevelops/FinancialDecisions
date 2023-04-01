@@ -55,6 +55,15 @@ img{
     max-height: 550px;
     border-radius: 3%;
 }
+a{
+    text-decoration: none;
+    color:azure;
+  }
+  a:hover{
+    text-decoration-line: underline;  
+  }
+
+  
 @media (max-width: 802px) {
     nav {
         display: block;
