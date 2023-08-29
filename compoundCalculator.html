@@ -46,7 +46,32 @@
 				</label><br>
 				<label for="rate">Interest rate(from 0 to 1)
 					<input value="0.05" type="text" min="0" max="1" pattern="^0(\.\d+)?|1(\.0+)?$" id="rate">
-				</label><br>
+				
+				</label>
+				<table border="1">
+					<tr>
+					  <th>Decimal</th>
+					  <th>Percentage</th>
+					</tr>
+					<tr>
+					  <td>0.05</td>
+					  <td>5% a year</td>
+					</tr>
+					<tr>
+					  <td>0.10</td>
+					  <td>10% a year</td>
+					</tr>
+					<tr>
+					  <td>0.15</td>
+					  <td>15% a year</td>
+					</tr>
+				  </table> 
+				  
+				  
+				  
+				  
+				  
+				<br>
 				
 			
 				<button class="btn">Calculate</button>
@@ -59,7 +84,8 @@
 				</p><hr>
 				<p>Invested: <span class="invested">$ .</span></p>
 				<p>Interest: <span class="interest">$ .</span></p>		
-			</fieldset></main><footer>
+			</fieldset></main>
+	<footer class="footerComp">
 		<p>Copyright © 2023 <a href="https://github.com/lswebdevelops/FinancialDecisions" target="_blank">Financial Decisions  <i class="fa-brands fa-2x fa-github"></i></a></p>
 	</footer>
 </body>
