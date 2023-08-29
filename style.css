@@ -55,6 +55,10 @@ footer {
     padding: 20px;
     text-align: center;
 }
+.footerComp{
+    text-align: left;
+    margin-left: 10%;
+  }
 img{
     max-height: 550px;
     border-radius: 3%;

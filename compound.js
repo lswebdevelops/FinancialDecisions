@@ -1,3 +1,6 @@
+
+// creating the compound calculator
+
 // getting values from input
 const principal = document.querySelector("#principal")
 const monthly = document.querySelector("#monthly")
@@ -27,7 +30,7 @@ const formattedCI = CI.toLocaleString('en-US', {style: 'currency', currency: 'US
 
 const result = document.querySelector(".result")
 result.innerText  = formattedCI;
-
+ 
 // how much were invested 
 const investedAmount = P + t * PMT
 const formattedCIInvestedAmount = investedAmount.toLocaleString('en-US', {style: 'currency', currency: 'USD'});
@@ -45,6 +48,5 @@ const button = document.querySelector('.btn')
 
   
   button.addEventListener('click', ()=>{
-    calculate()
-    
+    calculate()    
 })
